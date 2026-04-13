@@ -1,0 +1,10 @@
+services:
+  flyway:
+    build: .
+    image: ozanemrahyakupoglu/may-flyway:${VERSION:-1.0.0}
+    container_name: may-flyway
+    environment:
+      DB_HOST: host.docker.internal
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: 123456789

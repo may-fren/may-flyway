@@ -1,0 +1,9 @@
+.git
+.gitignore
+.idea
+*.iml
+.DS_Store
+docker-commands.txt
+docker-compose.yml
+project-context.md
+README.md
